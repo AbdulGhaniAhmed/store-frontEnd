@@ -1,20 +1,19 @@
-import React from 'react'
-import MenueHeader from '../../components/MenueHeader'
-import Header from '../../components/Header'
+import React from "react";
+import MenueHeader from "../../components/MenueHeader";
+import Header from "../../components/Header";
 
 /**
-* @author
-* @function HomePage
-**/
+ * @author
+ * @function HomePage
+ **/
 
 const HomePage = (props) => {
-  return(
+  return (
     <>
-    <Header/>
-    <MenueHeader/>
+      <Header />
+      <MenueHeader />
     </>
-   )
-  }
+  );
+};
 
-
-export default HomePage
+export default HomePage;
