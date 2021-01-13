@@ -1,6 +1,7 @@
 import React from "react";
 import MenueHeader from "../../components/MenueHeader";
 import Header from "../../components/Header";
+import Layout from "../../components/Layout";
 
 /**
  * @author
@@ -9,10 +10,9 @@ import Header from "../../components/Header";
 
 const HomePage = (props) => {
   return (
-    <>
-      <Header />
-      <MenueHeader />
-    </>
+    <Layout>
+      HomePage
+    </Layout>
   );
 };
 
